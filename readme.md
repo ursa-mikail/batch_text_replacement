@@ -13,7 +13,7 @@ A Python script that performs text replacement using wildcard patterns. Supports
 
 1. Create your rules file (`rules.txt`) with replacement patterns
 2. Create your input file (`input.txt`) with text to process
-3. Run the script: `python wildcard_replacement.py`
+3. Run the script: `python batch_text_replacement.py`
 4. Check the output in `output.txt`
 
 ## Rule Format
@@ -65,7 +65,7 @@ word_04 hello phrase_03_111 111_word_02 _test_01ing 111_word_02 end
 
 ## Files
 
-- `wildcard_replacement.py` - Main script
+- `batch_text_replacement.py` - Main script
 - `rules.txt` - Replacement rules (create this)
 - `input.txt` - Input text to process (create this)
 - `output.txt` - Processed output (generated)
